@@ -1,26 +1,75 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+body{
+    margin:0;
+}.logo img{
+    width: 60px;
+    height: auto;
+    margin: 15px 0 0 20px;
+}.bigBox{
+    background-color: #f5f5f5;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+    display: inline-flex;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0px rgb(202, 202, 202);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.templeftBox{
+    background-color: #71c08d;
+    height:96%;
+    width:48%;
+    position: relative;
+    left: 1%;
+    top: 2%;
+    border-radius: 20px;
+}.cleanLogin{
+    width: 380px;
+    height: auto;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50% , -50%);
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.temprightBox{
+    height:100%;
+    width:50%;
+    text-align: center;
+}.temprightBox h1{
+    margin-top: 100px;
+}.temprightBox div{
+    margin-top: 30px;
+}.temprightBox input{
+    outline: hidden;
+    border: none;
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    width:200px;
+}.temprightBox .login-button{
+    width:220px;
+    font-size: 16px; 
+    padding: 10px 10px;
+    background-color: #71c08d;
+    color:#f5f5f5;
+    border-radius: 6px;
+    border:none;
+    margin-top: 30px;
+}.temprightBox p{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}.password-toggle{
+    border:none;
+    background-color: transparent;
+    position: absolute;
+    right:140px;
+    top:5px;
+}.password-container{
+    position: relative;
 }
