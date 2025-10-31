@@ -1,0 +1,19 @@
+<utilisateurs>
+    <user>
+        <id>1</id>
+        <login>admin1</login>
+        <password>admin123</password>
+        <nom>Bouhamed</nom>
+        <prenom>Ahmed</prenom>
+        <role>admin</role>
+    </user>
+    
+    <user>
+        <id>1</id>
+        <login>admin2</login>
+        <password>admin321</password>
+        <nom>Batata</nom>
+        <prenom>Monsieur</prenom>
+        <role>admin</role>
+    </user>
+</utilisateurs>
